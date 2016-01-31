@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC2B121C1C5D68EA00E48B42 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B121A1C5D68EA00E48B42 /* ListViewController.swift */; };
+		CC2B12221C5D6F7600E48B42 /* SetupNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B12211C5D6F7600E48B42 /* SetupNavigationViewController.swift */; };
+		CC2B12241C5D6FC000E48B42 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B12231C5D6FC000E48B42 /* LoadingViewController.swift */; };
+		CC2B12261C5D7CED00E48B42 /* TextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B12251C5D7CED00E48B42 /* TextInputTableViewCell.swift */; };
+		CC2B12281C5D7D1500E48B42 /* TextInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B12271C5D7D1500E48B42 /* TextInputViewController.swift */; };
+		CC2B122A1C5D956800E48B42 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B12291C5D956800E48B42 /* InstructionViewController.swift */; };
+		CCB3A2C61C5CA71A00ED5838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3A2C51C5CA71A00ED5838 /* AppDelegate.swift */; };
+		CCB3A2C81C5CA71A00ED5838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3A2C71C5CA71A00ED5838 /* ViewController.swift */; };
+		CCB3A2CB1C5CA71A00ED5838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB3A2C91C5CA71A00ED5838 /* Main.storyboard */; };
+		CCB3A2CD1C5CA71A00ED5838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB3A2CC1C5CA71A00ED5838 /* Assets.xcassets */; };
+		CCB3A2D01C5CA71A00ED5838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB3A2CE1C5CA71A00ED5838 /* LaunchScreen.storyboard */; };
+		CCB3A2D81C5CA72400ED5838 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB3A2D71C5CA72400ED5838 /* HomeKit.framework */; };
+		CCB3A2DB1C5CA77300ED5838 /* BridgeSetupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3A2DA1C5CA77300ED5838 /* BridgeSetupManager.swift */; };
+		CCB3A2DD1C5CAA3E00ED5838 /* BridgeSetupSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3A2DC1C5CAA3E00ED5838 /* BridgeSetupSession.swift */; };
+		CCB3A2E01C5CB3BF00ED5838 /* BridgeRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3A2DF1C5CB3BF00ED5838 /* BridgeRequests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC2B121A1C5D68EA00E48B42 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CC2B12211C5D6F7600E48B42 /* SetupNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupNavigationViewController.swift; sourceTree = "<group>"; };
+		CC2B12231C5D6FC000E48B42 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		CC2B12251C5D7CED00E48B42 /* TextInputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputTableViewCell.swift; sourceTree = "<group>"; };
+		CC2B12271C5D7D1500E48B42 /* TextInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputViewController.swift; sourceTree = "<group>"; };
+		CC2B12291C5D956800E48B42 /* InstructionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		CCB3A2C21C5CA71A00ED5838 /* HesperusBridgeConfigurator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HesperusBridgeConfigurator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB3A2C51C5CA71A00ED5838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCB3A2C71C5CA71A00ED5838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCB3A2CA1C5CA71A00ED5838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB3A2CC1C5CA71A00ED5838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB3A2CF1C5CA71A00ED5838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCB3A2D11C5CA71A00ED5838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB3A2D71C5CA72400ED5838 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		CCB3A2D91C5CA72400ED5838 /* HesperusBridgeConfigurator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HesperusBridgeConfigurator.entitlements; sourceTree = "<group>"; };
+		CCB3A2DA1C5CA77300ED5838 /* BridgeSetupManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeSetupManager.swift; sourceTree = "<group>"; };
+		CCB3A2DC1C5CAA3E00ED5838 /* BridgeSetupSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeSetupSession.swift; sourceTree = "<group>"; };
+		CCB3A2DF1C5CB3BF00ED5838 /* BridgeRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeRequests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB3A2BF1C5CA71A00ED5838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB3A2D81C5CA72400ED5838 /* HomeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB3A2B91C5CA71A00ED5838 = {
+			isa = PBXGroup;
+			children = (
+				CCB3A2D71C5CA72400ED5838 /* HomeKit.framework */,
+				CCB3A2C41C5CA71A00ED5838 /* HesperusBridgeConfigurator */,
+				CCB3A2C31C5CA71A00ED5838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB3A2C31C5CA71A00ED5838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3A2C21C5CA71A00ED5838 /* HesperusBridgeConfigurator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB3A2C41C5CA71A00ED5838 /* HesperusBridgeConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3A2D91C5CA72400ED5838 /* HesperusBridgeConfigurator.entitlements */,
+				CCB3A2C51C5CA71A00ED5838 /* AppDelegate.swift */,
+				CCB3A2DA1C5CA77300ED5838 /* BridgeSetupManager.swift */,
+				CCB3A2DC1C5CAA3E00ED5838 /* BridgeSetupSession.swift */,
+				CCB3A2DF1C5CB3BF00ED5838 /* BridgeRequests.swift */,
+				CCB3A2C71C5CA71A00ED5838 /* ViewController.swift */,
+				CC2B12231C5D6FC000E48B42 /* LoadingViewController.swift */,
+				CC2B121A1C5D68EA00E48B42 /* ListViewController.swift */,
+				CC2B12271C5D7D1500E48B42 /* TextInputViewController.swift */,
+				CC2B12251C5D7CED00E48B42 /* TextInputTableViewCell.swift */,
+				CC2B12291C5D956800E48B42 /* InstructionViewController.swift */,
+				CC2B12211C5D6F7600E48B42 /* SetupNavigationViewController.swift */,
+				CCB3A2C91C5CA71A00ED5838 /* Main.storyboard */,
+				CCB3A2CC1C5CA71A00ED5838 /* Assets.xcassets */,
+				CCB3A2CE1C5CA71A00ED5838 /* LaunchScreen.storyboard */,
+				CCB3A2D11C5CA71A00ED5838 /* Info.plist */,
+			);
+			path = HesperusBridgeConfigurator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB3A2C11C5CA71A00ED5838 /* HesperusBridgeConfigurator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB3A2D41C5CA71A00ED5838 /* Build configuration list for PBXNativeTarget "HesperusBridgeConfigurator" */;
+			buildPhases = (
+				CCB3A2BE1C5CA71A00ED5838 /* Sources */,
+				CCB3A2BF1C5CA71A00ED5838 /* Frameworks */,
+				CCB3A2C01C5CA71A00ED5838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HesperusBridgeConfigurator;
+			productName = HesperusBridgeConfigurator;
+			productReference = CCB3A2C21C5CA71A00ED5838 /* HesperusBridgeConfigurator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB3A2BA1C5CA71A00ED5838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Oltica;
+				TargetAttributes = {
+					CCB3A2C11C5CA71A00ED5838 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7C2EXSD3YV;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CCB3A2BD1C5CA71A00ED5838 /* Build configuration list for PBXProject "HesperusBridgeConfigurator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB3A2B91C5CA71A00ED5838;
+			productRefGroup = CCB3A2C31C5CA71A00ED5838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB3A2C11C5CA71A00ED5838 /* HesperusBridgeConfigurator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB3A2C01C5CA71A00ED5838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB3A2D01C5CA71A00ED5838 /* LaunchScreen.storyboard in Resources */,
+				CCB3A2CD1C5CA71A00ED5838 /* Assets.xcassets in Resources */,
+				CCB3A2CB1C5CA71A00ED5838 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB3A2BE1C5CA71A00ED5838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB3A2C81C5CA71A00ED5838 /* ViewController.swift in Sources */,
+				CCB3A2E01C5CB3BF00ED5838 /* BridgeRequests.swift in Sources */,
+				CC2B121C1C5D68EA00E48B42 /* ListViewController.swift in Sources */,
+				CC2B12241C5D6FC000E48B42 /* LoadingViewController.swift in Sources */,
+				CC2B12281C5D7D1500E48B42 /* TextInputViewController.swift in Sources */,
+				CCB3A2DD1C5CAA3E00ED5838 /* BridgeSetupSession.swift in Sources */,
+				CCB3A2DB1C5CA77300ED5838 /* BridgeSetupManager.swift in Sources */,
+				CC2B122A1C5D956800E48B42 /* InstructionViewController.swift in Sources */,
+				CCB3A2C61C5CA71A00ED5838 /* AppDelegate.swift in Sources */,
+				CC2B12261C5D7CED00E48B42 /* TextInputTableViewCell.swift in Sources */,
+				CC2B12221C5D6F7600E48B42 /* SetupNavigationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCB3A2C91C5CA71A00ED5838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB3A2CA1C5CA71A00ED5838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB3A2CE1C5CA71A00ED5838 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB3A2CF1C5CA71A00ED5838 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB3A2D21C5CA71A00ED5838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB3A2D31C5CA71A00ED5838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB3A2D51C5CA71A00ED5838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HesperusBridgeConfigurator/HesperusBridgeConfigurator.entitlements;
+				INFOPLIST_FILE = HesperusBridgeConfigurator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oltica.HesperusBridgeConfigurator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCB3A2D61C5CA71A00ED5838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HesperusBridgeConfigurator/HesperusBridgeConfigurator.entitlements;
+				INFOPLIST_FILE = HesperusBridgeConfigurator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.oltica.HesperusBridgeConfigurator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB3A2BD1C5CA71A00ED5838 /* Build configuration list for PBXProject "HesperusBridgeConfigurator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB3A2D21C5CA71A00ED5838 /* Debug */,
+				CCB3A2D31C5CA71A00ED5838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB3A2D41C5CA71A00ED5838 /* Build configuration list for PBXNativeTarget "HesperusBridgeConfigurator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB3A2D51C5CA71A00ED5838 /* Debug */,
+				CCB3A2D61C5CA71A00ED5838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB3A2BA1C5CA71A00ED5838 /* Project object */;
+}
