@@ -33,12 +33,12 @@ class BridgeSetupSession {
     
     var accessoryDelegate = AccessoryDelegate()
     
-    var bridgeAccessory: HMAccessory
-    var setupService: HMService
+    var bridgeAccessory: HMAccessory!
+    var setupService: HMService!
     
-    var stateChar: HMCharacteristic
-    var versionChar: HMCharacteristic
-    var controlPointChar: HMCharacteristic
+    var stateChar: HMCharacteristic!
+    var versionChar: HMCharacteristic!
+    var controlPointChar: HMCharacteristic!
     
     var navigationController: UINavigationController?
     
