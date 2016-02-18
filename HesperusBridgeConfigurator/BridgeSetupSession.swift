@@ -224,7 +224,13 @@ class BridgeSetupSession {
     }
     
     func userCancelSetupFromViewController(controller: UIViewController) {
-        
+        let request = TerminateRequest(sessionUUID: self.sessionUUID, transactionID: self.currentTransactionID)
+        self.controlPointChar.writeValue(request.serializedData(), completionHandler: {
+            error in
+            if let error = error {
+                NSLog("Error: \(error)")
+            }
+        })
     }
     
     func accessoryDidUpdateReachability(accessory: HMAccessory) {
